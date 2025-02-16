@@ -1,0 +1,76 @@
+
+.dashboard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  .broadcast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .broadcast-table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .broadcast-table th,
+  .broadcast-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .broadcast-table th {
+    font-weight: bold;
+  }
+
+  .broadcast-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .join-btn {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-btn:hover {
+    background-color: #218838;
+  }
+
+  @media (max-width: 768px) {
+    .broadcast-table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .broadcast-table th,
+    .broadcast-table td {
+      padding: 10px;
+    }
+  
+    .join-btn {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+
+  .dashboard h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
